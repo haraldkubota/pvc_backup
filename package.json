@@ -2,7 +2,7 @@
   "name": "pvc-backup",
   "version": "1.0.0",
   "description": "",
-  "main": "pvc-backup.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,10 @@
   "author": "Harald Kubota",
   "license": "ISC",
   "dependencies": {
-    "commander": "^6.2.0",
-    "kubernetes-client": "^9.0.0"
+    "@kubernetes/client-node": "^0.15.0",
+    "commander": "^8.1.0"
+  },
+  "devDependencies": {
+    "prettier": "2.3.2"
   }
 }
